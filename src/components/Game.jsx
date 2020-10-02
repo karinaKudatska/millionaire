@@ -91,7 +91,7 @@ function Game() {
           {popup && (
             <div className="popup">
               <img className="popup__image" src={done} alt="Good job!" />
-              <h1 className="popup__title">You won {prizes[currentPrize]}!</h1>
+              <h1 className="popup__title">You won {prizes[currentPrize + 1]}!</h1>
            </div>
           )}
         </div>
