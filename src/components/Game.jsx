@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import ClassNames from 'classnames';
 import './Game.scss';
-import hand from '../images/hand.png'
+import hand from '../images/hand.png';
+import done from '../images/done.png';
 import tasks from '../api/tasks.json';
 import { prizes } from '../api/prizes.json';
 
@@ -11,6 +12,7 @@ function Game() {
   const [currentTask, setCurrentTask] = useState(0);
   const [currentPrize, setCurrentPrize] = useState(prizes.length-1);
   const [gameOver, setGameOver] = useState(false);
+  const [popup, setPopup] = useState(false);
   const letters = ["A", "B", "C", "D"];
 
   const chooseOption = (option, answer) => {
@@ -18,6 +20,8 @@ function Game() {
       if (currentTask !== tasks.length - 1) {
         setCurrentTask(currentTask + 1);
         setCurrentPrize(currentPrize - 1);
+        setPopup(true);
+        setTimeout(() => setPopup(false), 1000)
       } else {
         setCurrentPrize(currentPrize - 1);
         setGameOver(true);
@@ -72,16 +76,24 @@ function Game() {
           </div>
           <ul className="game__prizes">
               {prizes.map((prize, index) => (
-                <li className={ClassNames({
-                  "game__prize": true,
-                  "game__prize--active": index === currentPrize,
-                  "game__prize--unactive": index > currentPrize,
-                })}
+                <li 
+                  key={index}
+                  className={ClassNames({
+                    "game__prize": true,
+                    "game__prize--active": index === currentPrize,
+                    "game__prize--unactive": index > currentPrize,
+                  })}
                 >
                   {prize}
                 </li>
               ))}
           </ul>
+          {popup && (
+            <div className="popup">
+              <img className="popup__image" src={done} alt="Good job!" />
+              <h1 className="popup__title">You won {prizes[currentPrize]}!</h1>
+           </div>
+          )}
         </div>
       )}
 
