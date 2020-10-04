@@ -161,6 +161,9 @@
 
         &__option {
             font-size: 14px;
+            &:hover {
+                background-image: url('../../images/option.png');
+            }
         }
 
         &__question {
