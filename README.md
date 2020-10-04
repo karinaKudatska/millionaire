@@ -1,3 +1,5 @@
+[DEMO LINK](https://karinakudatska.github.io/millionaire/)
+
 1. Fork the repository
 2. Clone the forked repo
 3. Run 'yarn install' to install the dependencies
