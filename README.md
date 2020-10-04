@@ -1,4 +1,4 @@
-[DEMO LINK](https://karinakudatska.github.io/millionaire/)
+[DEMO LINK](https://karinakudatska.github.io/millionaire/) | 
 [CODE](https://github.com/karinaKudatska/millionaire/pull/1/files)
 
 1. Fork the repository
