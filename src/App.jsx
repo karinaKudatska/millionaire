@@ -26,31 +26,31 @@ function App() {
         setGameOver(true);
         setGamePage(false);
         setCurrentTask(0);
-        setCurrentPrize(currentPrize + 1)
+        setCurrentPrize(currentPrize + 1);
       }
     } else {
       setGameOver(true);
       setGamePage(false);
       setCurrentTask(0);
     }
-  }
+  };
 
   const tryAgain = () => {
     setGamePage(true);
     setGameOver(false);
     setCurrentPrize(0);
-  }
+  };
 
   return (
     <div className="App">
       {gameStart && (
-        <GameStart 
+        <GameStart
           setGameStart={setGameStart}
           setGamePage={setGamePage}
         />
       )}
       {gamePage && (
-        <GamePage 
+        <GamePage
           chooseOption={chooseOption}
           currentTask={currentTask}
           prizes={prizes}
@@ -60,7 +60,7 @@ function App() {
         />
       )}
       {gameOver && (
-        <GameOver 
+        <GameOver
           prizes={prizes}
           currentPrize={currentPrize}
           tryAgain={tryAgain}
