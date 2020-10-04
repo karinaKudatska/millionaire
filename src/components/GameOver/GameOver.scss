@@ -1,0 +1,141 @@
+@import '../../variables/variables.scss';
+
+.game-over {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 80px;
+  background-color: $light-grey-color;
+
+  &__title {
+      margin-bottom: 8px;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 116%;
+      color: #9c9c9f;
+  }
+
+  &__result {
+      margin-bottom: 64px;
+      font-weight: 600;
+      font-size: 56px;
+      line-height: 116%;
+      color: $black-color;
+  }
+
+  &__right-container {
+      display: flex;
+      flex-direction: column;
+  }
+
+  &__image {
+    margin-right: 30px;
+    max-width: 625px;
+    height: 365px;
+    transition: 0.5s;
+
+    &:hover {
+        animation: swing 1s ease;
+        animation-iteration-count: 1;
+    }
+  }
+
+  &__button {
+      width: 300px;
+      padding: 20px 24px;
+      background-color: $orange-color;
+      border: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 116%;
+      color: #FFF;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &:hover {
+          transform: scale(1.1);
+          background-color: #FFD62A;
+          color: $black-color;
+      
+      }
+
+      &:focus {
+          outline: none;
+      }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .game-over {
+      &__title {
+          font-size: 44px;
+      }
+
+      &__image {
+          width: 100%;
+          height: auto;
+      }
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .game-over {
+      padding: 0 16px;
+      flex-direction: column;
+
+      &__right-container {
+          align-items: center;
+      }
+
+      &__title {
+          font-size: 32px;
+          margin-bottom: 8px;
+          text-align: center;
+      }
+
+      &__result {
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 116%;
+          margin-bottom: 100px;
+      }
+
+      &__image {
+          width: 100%;
+          height: auto;
+          margin: 0 0 35px 0;
+      }
+
+      &__button {
+          max-width: 300px;
+          padding: 16px 24px;
+          font-size: 14px;
+          border-radius: 8px;
+      }
+  }
+}
+
+@keyframes swing {
+    15% {
+      transform: translateX(10px);
+    }
+    30% {
+      transform: translateX(-10px);
+    }
+    40% {
+      transform: translateX(5px);
+    }
+    50% {
+      transform: translateX(-5px);
+    }
+    65% {
+      transform: translateX(2px);
+    }
+    100% {
+      transform: translateX(0);
+    } 
+}

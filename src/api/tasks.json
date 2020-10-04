@@ -1,85 +1,85 @@
 [
     {
         "id": 1,
-        "question": "In the UK, the abbreviation NHS stands for National what Service?",
-        "options": ["Humanity", "Health", "Honour", "Household"],
-        "answer": "Health"
+        "question": "Genesis is one of the largest IT companies in",
+        "options": ["America", "Ukraine", "Germany", "Poland"],
+        "answer": "Ukraine"
     },
 
     {
         "id": 2,
-        "question": "Which Disney character famously leaves a glass slipper behind at a royal ball?",
-        "options": ["Pocahontas", "Sleeping Beauty", "Cinderella", "Elsa"],
-        "answer": "Cinderella"
+        "question": "In how many countries are the Genesis offices located?",
+        "options": ["8", "3", "7", "5"],
+        "answer": "5"
     },
 
     {
         "id": 3,
-        "question": "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
-        "options": ["Hangar", "Terminal", "Concourse", "Carousel"],
-        "answer": "Carousel"
+        "question": "How many employees does Genesis have in the world?",
+        "options": ["200-500", "500-1000", "1000-1500", "1500+"],
+        "answer": "1500+"
     },
 
     {
         "id": 4,
-        "question": "Which of these brands was chiefly associated with the manufacture of household locks?",
-        "options": ["Phillips", "Flymo", "Chubb", "Ronseal"],
-        "answer": "Chubb"
+        "question": "Which of the following are Genesis partners?",
+        "options": ["Facebook", "Google", "Apple", "All listed"],
+        "answer": "All listed"
     },
 
     {
         "id": 5,
-        "question": "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
-        "options": ["Republicanism", "Communism", "Conservatism", "Liberalism"],
-        "answer": "Communism"
+        "question": "The author's course that the company has developed for the development of product IT in Ukraine is called",
+        "options": ["Genesis University", "Genesis IT School", "Genesis Software University", "Genesis  IT Academy"],
+        "answer": "Genesis IT School"
     },
 
     {
         "id": 6,
-        "question": "Which toys have been marketed with the phrase “robots in disguise”?",
-        "options": ["Bratz Dolls", "Sylvanian Families", "Hatchimals", "Transformers"],
-        "answer": "Transformers"
+        "question": "Where is the Genesis head office located?",
+        "options": ["Kyiv", "Odessa", "Kharkiv", "Lviv"],
+        "answer": "Kyiv"
     },
 
     {
         "id": 7,
-        "question": "What does the word loquacious mean?",
-        "options": ["Angry", "Chatty", "Beautiful", "Shy"],
-        "answer": "Chatty"
+        "question": "What are Genesis products?",
+        "options": ["Mobile applications", "Digital media", "E-commerce", "All listed"],
+        "answer": "All listed"
     },
 
     {
         "id": 8,
-        "question": "Obstetrics is a branch of medicine particularly concerned with what?",
-        "options": ["Childbirth", "Broken bones", "Heart conditions", "Old age"],
-        "answer": "Childbirth"
+        "question": "The Genesis Jiji project is",
+        "options": ["Health & Fitness App", "Job search platform in Kazakhstan", "Bulletin board in West Africa", "Social Discovery business"],
+        "answer": "Bulletin board in West Africa"
     },
 
     {
         "id": 9,
-        "question": "In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
-        "options": ["Bow-tie, braces and tweed jacket", "Wide-brimmed hat and extra long scarf", "Pinstripe suit and trainers", "Cape, velvet jacket and frilly shirt"],
-        "answer": "Wide-brimmed hat and extra long scarf"
+        "question": "Headway is",
+        "options": ["Project in the field of education", "Job search platform in Kazakhstan", "Bulletin board in West Africa", "Health & Fitness App"],
+        "answer": "Project in the field of education"
     },
 
     {
         "id": 10,
-        "question": "Which of these religious observances lasts for the shortest period of time during the calendar year?",
-        "options": ["Ramadan", "Diwali", "Lent", "Hanukkah"],
-        "answer": "Diwali"
+        "question": "Who made the film about Genesis as a success story?",
+        "options": ["YouTube", "Apple", "Snapchat", "Facebook"],
+        "answer": "Facebook"
     },
 
     {
         "id": 11,
-        "question": "At the closest point, which island group is only 50 miles south-east of the coast of Florida?",
-        "options": ["Bahamas", "US Virgin Islands", "Turks and Caicos Islands", "Bermuda"],
-        "answer": "Bahamas"
+        "question": "How many fitness apps does BetterMe combine?",
+        "options": ["2", "10+", "7", "4"],
+        "answer": "7"
     },
 
     {
         "id": 12,
-        "question": "Construction of which of these famous landmarks was completed first?",
-        "options": ["Empire State Building", "Royal Albert Hall", "Eiffel Tower", "Big Ben Clock Tower"],
-        "answer": "Big Ben Clock Tower"
+        "question": "Who allocated a development grant for Genesis in the African continent?",
+        "options": ["YouTube", "Apple", "Snapchat", "Facebook"],
+        "answer": "YouTube"
     }
 ]

@@ -1,0 +1,23 @@
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.822);
+
+  &__image {
+      width: 100px;
+      height: 100px;
+      object-position: center;
+      object-fit: contain;
+  }
+
+  &__title {
+      color: white;
+      font-size: 30px;
+  }
+}
