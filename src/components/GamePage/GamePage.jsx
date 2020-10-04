@@ -31,7 +31,6 @@ function GamePage({
         <h2 className="game-page__question">{tasks[currentTask].question}</h2>
         <ul className="game-page__options">
           {tasks[currentTask].options.map((option, index) => (
-            // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
             <li
               className="game-page__option"
               onClick={() => chooseOption(option, tasks[currentTask].answer)}
