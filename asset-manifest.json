@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/millionaire/static/css/main.7d3db78a.chunk.css",
+    "main.css": "/millionaire/static/css/main.f5eb7652.chunk.css",
     "main.js": "/millionaire/static/js/main.85e2bcef.chunk.js",
     "main.js.map": "/millionaire/static/js/main.85e2bcef.chunk.js.map",
     "runtime-main.js": "/millionaire/static/js/runtime-main.70d563fc.js",
@@ -8,9 +8,9 @@
     "static/js/2.9a2a4adf.chunk.js": "/millionaire/static/js/2.9a2a4adf.chunk.js",
     "static/js/2.9a2a4adf.chunk.js.map": "/millionaire/static/js/2.9a2a4adf.chunk.js.map",
     "index.html": "/millionaire/index.html",
-    "precache-manifest.f72c2a145d1ecebfca9df804d08d3c46.js": "/millionaire/precache-manifest.f72c2a145d1ecebfca9df804d08d3c46.js",
+    "precache-manifest.ebe16103cea3e5839375be8cc9b6f0db.js": "/millionaire/precache-manifest.ebe16103cea3e5839375be8cc9b6f0db.js",
     "service-worker.js": "/millionaire/service-worker.js",
-    "static/css/main.7d3db78a.chunk.css.map": "/millionaire/static/css/main.7d3db78a.chunk.css.map",
+    "static/css/main.f5eb7652.chunk.css.map": "/millionaire/static/css/main.f5eb7652.chunk.css.map",
     "static/js/2.9a2a4adf.chunk.js.LICENSE.txt": "/millionaire/static/js/2.9a2a4adf.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/millionaire/static/media/Inter-SemiBold.ec60b23f.ttf",
     "static/media/done.png": "/millionaire/static/media/done.b9a10378.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.70d563fc.js",
     "static/js/2.9a2a4adf.chunk.js",
-    "static/css/main.7d3db78a.chunk.css",
+    "static/css/main.f5eb7652.chunk.css",
     "static/js/main.85e2bcef.chunk.js"
   ]
 }
