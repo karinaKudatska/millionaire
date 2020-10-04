@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/millionaire/static/css/main.7d3db78a.chunk.css",
-    "main.js": "/millionaire/static/js/main.a5f9534b.chunk.js",
-    "main.js.map": "/millionaire/static/js/main.a5f9534b.chunk.js.map",
+    "main.js": "/millionaire/static/js/main.85e2bcef.chunk.js",
+    "main.js.map": "/millionaire/static/js/main.85e2bcef.chunk.js.map",
     "runtime-main.js": "/millionaire/static/js/runtime-main.70d563fc.js",
     "runtime-main.js.map": "/millionaire/static/js/runtime-main.70d563fc.js.map",
     "static/js/2.9a2a4adf.chunk.js": "/millionaire/static/js/2.9a2a4adf.chunk.js",
     "static/js/2.9a2a4adf.chunk.js.map": "/millionaire/static/js/2.9a2a4adf.chunk.js.map",
     "index.html": "/millionaire/index.html",
-    "precache-manifest.6d5669b9c02f651c6c2bc60fc110b40f.js": "/millionaire/precache-manifest.6d5669b9c02f651c6c2bc60fc110b40f.js",
+    "precache-manifest.f72c2a145d1ecebfca9df804d08d3c46.js": "/millionaire/precache-manifest.f72c2a145d1ecebfca9df804d08d3c46.js",
     "service-worker.js": "/millionaire/service-worker.js",
     "static/css/main.7d3db78a.chunk.css.map": "/millionaire/static/css/main.7d3db78a.chunk.css.map",
     "static/js/2.9a2a4adf.chunk.js.LICENSE.txt": "/millionaire/static/js/2.9a2a4adf.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.70d563fc.js",
     "static/js/2.9a2a4adf.chunk.js",
     "static/css/main.7d3db78a.chunk.css",
-    "static/js/main.a5f9534b.chunk.js"
+    "static/js/main.85e2bcef.chunk.js"
   ]
 }
