@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ClassNames from 'classnames';
 import Popup from '../Popup/Popup';
+import Burger from '../BurgerButton/BurgerButton';
 import './GamePage.scss';
 
 function GamePage({ chooseOption, currentPrize, currentTask, prizes, tasks, popup}) {
   const letters = ["A", "B", "C", "D"];
+  const [isBurgerActive, setisBurgerActive] = useState(false);
 
   return (
     <div className="game-page">
-      <div className="game-page__task">
+      <Burger 
+        active={isBurgerActive}
+        setActive={setisBurgerActive}
+      />
+      <div className={ClassNames(
+        "game-page__task",
+        { "game-page__task--closed": isBurgerActive }
+      )}>
         <h2 className="game-page__question">{tasks[currentTask].question}</h2>
         <ul className="game-page__options">
           {tasks[currentTask].options.map((option, index) => (
@@ -23,7 +32,10 @@ function GamePage({ chooseOption, currentPrize, currentTask, prizes, tasks, popu
           ))}
         </ul>
       </div>
-      <ul className="game-page__prizes">
+      <ul className={ClassNames(
+        "game-page__prizes",
+        { "game-page__prizes--opened": isBurgerActive }
+      )}>
           {prizes.map((prize, index) => (
             <li 
               key={index}

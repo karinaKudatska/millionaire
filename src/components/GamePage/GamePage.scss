@@ -149,6 +149,9 @@
     .game-page {
         &__task {
             padding: 135px 0 25px 0;
+            &--closed {
+                display: none;
+            }
         }
 
         &__options {
@@ -168,6 +171,11 @@
 
         &__prizes {
             display: none;
+        }
+
+        &__prizes--opened {
+            display: flex;
+            background-color: $light-grey-color;
         }
     }
 }

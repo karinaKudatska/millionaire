@@ -1,0 +1,23 @@
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .burger {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    width: 16px;
+    height: 14px;
+    border: none;
+    outline: none;
+    background: url('../../images/burger.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+  
+    &__active {
+      background-image: url('../../images/active-burger.png');
+    }
+  }
+}
