@@ -45,7 +45,7 @@
       transition: 0.2s;
 
       &-wrapper {
-          max-width: 390px;
+          width: 100%;
       }
 
       
@@ -203,7 +203,6 @@
 
         &__option {
             padding: 20px;
-            background-size: contain;
 
             &:before,
             &:after {
