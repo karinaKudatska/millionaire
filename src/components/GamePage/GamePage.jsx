@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from 'react';
 import ClassNames from 'classnames';
 import PropTypes from 'prop-types';
@@ -32,11 +31,19 @@ function GamePage({
         <ul className="game-page__options">
           {tasks[currentTask].options.map((option, index) => (
             <li
-              className="game-page__option"
-              onClick={() => chooseOption(option, tasks[currentTask].answer)}
+              key={option}
+              className="game-page__option-wrapper"
             >
-              <span className="game-page__option-letter">{letters[index]}</span>
-              {option}
+              <button
+                className="game-page__option"
+                type="button"
+                onClick={() => chooseOption(
+                  option, tasks[currentTask].answer,
+                )}
+              >
+                <span className="game-page__option-letter">{letters[index]}</span>
+                {option}
+              </button>
             </li>
           ))}
         </ul>
@@ -48,6 +55,7 @@ function GamePage({
       >
         {prizes.map((prize, index) => (
           <li
+            key={prize}
             className={ClassNames({
               'game-page__prize': true,
               'game-page__prize--active': index === currentPrize,
