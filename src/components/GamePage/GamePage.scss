@@ -45,7 +45,7 @@
       transition: 0.2s;
 
       &-wrapper {
-          width: 100%;
+          width: 390px;
       }
 
       
@@ -163,23 +163,19 @@
             }
         }
 
+        &__question {
+            text-align: center;
+        }
+
         &__options {
             grid-template-columns: 1fr;
             justify-items: center;
         }
 
         &__option {
-            font-size: 14px;
             &:hover {
                 background-image: url('../../images/option.png');
             }
-        }
-
-        &__question {
-            width: 100%;
-            height: max-content;
-            font-size: 18px;
-            text-align: center;
         }
 
         &__prizes {
@@ -196,8 +192,16 @@
 
 @media screen and (max-width: 480px) {
     .game-page {
+        &__task {
+             width: 100vw;
+        }
+
+        &__question {
+            font-size: 18px;
+        }
 
         &__options {
+            font-size: 14px;
             gap: 8px;
         }
 
@@ -207,6 +211,10 @@
             &:before,
             &:after {
                 display: none;
+            }
+
+            &-wrapper {
+                width: 100%;
             }
         }
 
